@@ -1,7 +1,10 @@
-baseURL = "https://openstep.net/"
+baseURL = "https://blog.openstep.net"
 languageCode = "en-us"
 title = "Openstep Blog"
 theme = "m10c"
 [params]
 avatar = "openstep.jpg"
 description = "Cloud & Engineering Topics"
+[[deployment.targets]]
+name = "openstepblog"
+URL = "gs://openstep_blog"

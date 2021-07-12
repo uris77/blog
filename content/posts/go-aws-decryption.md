@@ -1,5 +1,5 @@
 ---
-title: "Go Aws Decryption"
+title: "Go AWS Notes: KMS - Decryption"
 date: 2020-01-06T09:21:44-06:00
 draft: false
 ---

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://blog.openstep.net/posts/go-firebase-claims/</loc>
+    <lastmod>2021-03-04T13:21:37-06:00</lastmod>
+  </url><url>
+    <loc>https://blog.openstep.net/</loc>
+    <lastmod>2021-03-04T13:21:37-06:00</lastmod>
+  </url><url>
+    <loc>https://blog.openstep.net/posts/</loc>
+    <lastmod>2021-03-04T13:21:37-06:00</lastmod>
+  </url><url>
+    <loc>https://blog.openstep.net/posts/go-oauth-lambda-1/</loc>
+    <lastmod>2020-01-27T13:19:32-06:00</lastmod>
+  </url><url>
+    <loc>https://blog.openstep.net/posts/go-example-tests/</loc>
+    <lastmod>2020-01-20T12:02:11-06:00</lastmod>
+  </url><url>
+    <loc>https://blog.openstep.net/posts/go-struct-omitempty/</loc>
+    <lastmod>2020-01-10T12:00:16-06:00</lastmod>
+  </url><url>
+    <loc>https://blog.openstep.net/posts/go-aws-decryption/</loc>
+    <lastmod>2020-01-06T09:21:44-06:00</lastmod>
+  </url><url>
+    <loc>https://blog.openstep.net/categories/</loc>
+  </url><url>
+    <loc>https://blog.openstep.net/tags/</loc>
+  </url>
+</urlset>

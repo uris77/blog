@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Openstep Blog</title>
+    <link>https://blog.openstep.net/posts/</link>
+    <description>Recent content in Posts on Openstep Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Mar 2021 13:21:37 -0600</lastBuildDate><atom:link href="https://blog.openstep.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go Notes: Parsing Claims in Firebase JWT Token</title>
+      <link>https://blog.openstep.net/posts/go-firebase-claims/</link>
+      <pubDate>Thu, 04 Mar 2021 13:21:37 -0600</pubDate>
+      
+      <guid>https://blog.openstep.net/posts/go-firebase-claims/</guid>
+      <description>I struggled to parse the Firebase JWT Claims. Because claims may contain strings, maps, and arrays, the claims field type is an []interface{}. In this example, one of the claims was a list of permissions. Permissions themselves were just an array of strings. Go does not know that it is an array string, and it is impossible to convert it directly. Instead, we need an intermediary conversion.
+The Firebase Token struct is defined as:</description>
+    </item>
+    
+    <item>
+      <title>Go Notes: Auth0 validation for AWS Lambda</title>
+      <link>https://blog.openstep.net/posts/go-oauth-lambda-1/</link>
+      <pubDate>Mon, 27 Jan 2020 13:19:32 -0600</pubDate>
+      
+      <guid>https://blog.openstep.net/posts/go-oauth-lambda-1/</guid>
+      <description>I found myself migrating a serverless service written in node to Go, and needed to write a lambda authorizer. An authorizer is simply an AWS Lambda that the API Gateway will invoke to verify if the request is authorized.
+The AWS Go SDK has a type for the API Gateway Request that the authorizer will receive. The authorizer I need is very simple for now. It will only concern itself with validating the JWT token.</description>
+    </item>
+    
+    <item>
+      <title>Go Notes: Example Tests</title>
+      <link>https://blog.openstep.net/posts/go-example-tests/</link>
+      <pubDate>Mon, 20 Jan 2020 12:02:11 -0600</pubDate>
+      
+      <guid>https://blog.openstep.net/posts/go-example-tests/</guid>
+      <description>Go&amp;rsquo;s Example Tests are a great tool for documenting the expectations of our code. They are conveniently integrated with godocs, making the docs have more context and actual runnable examples. These tests provide a quick overview of what the code is supposed to be doing in a manner that is easily digestible for the reader without needing to understand the inner workings.
+What are Example Tests? In Example Tests, we print out the result of a function that we want to test, and we indicate the expected output as comments:</description>
+    </item>
+    
+    <item>
+      <title>Go Notes: Omitting empty structs</title>
+      <link>https://blog.openstep.net/posts/go-struct-omitempty/</link>
+      <pubDate>Fri, 10 Jan 2020 12:00:16 -0600</pubDate>
+      
+      <guid>https://blog.openstep.net/posts/go-struct-omitempty/</guid>
+      <description>Go provides a convenient way of marshaling and unmarshaling structs by using struct field tags. This gives us the benefit of not letting the Go naming convention to leak into the JSON structure, and it also doesn&amp;rsquo;t force us to use a non-idiomatic naming convention for our APIs that will be consumed outside our team.
+Let&amp;rsquo;s draft an example. We are modeling a census application that will capture basic information about people.</description>
+    </item>
+    
+    <item>
+      <title>Go AWS Notes: KMS - Decryption</title>
+      <link>https://blog.openstep.net/posts/go-aws-decryption/</link>
+      <pubDate>Mon, 06 Jan 2020 09:21:44 -0600</pubDate>
+      
+      <guid>https://blog.openstep.net/posts/go-aws-decryption/</guid>
+      <description>I use KMS for serverless apps when I want to put some secrets as an environment variable (Yes, I know SSM exists). I use the serverless app and the serverless-kms-secrets (https://github.com/nordcloud/serverless-kms-secrets) for encrypting secrets and making it convenient for using them in a lambda.
+After installing the plugin, we can encrypt a secret in the command line:
+sls encrypt -n MY_SECRET -v my-password The plugin readme (https://github.com/nordcloud/serverless-kms-secrets) goes into more detail on how to use it.</description>
+    </item>
+    
+  </channel>
+</rss>
