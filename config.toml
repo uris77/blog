@@ -5,6 +5,17 @@ theme = "m10c"
 [params]
 avatar = "openstep.jpg"
 description = "Cloud & Engineering Topics"
+[menu]
+[[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "https://openstep.net"
+    weight = -100
+[[menu.main]]
+    identifier = "articles"
+    name = "Articles"
+    url = "https://blog.openstep.net"
+    weight = 100
 [[deployment.targets]]
 name = "openstepblog"
 URL = "gs://openstep_blog"
