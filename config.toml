@@ -9,7 +9,7 @@ description = "Cloud & Engineering Topics"
 [[menu.main]]
     identifier = "home"
     name = "Home"
-    url = "https://openstep.net"
+    url = "https://openstep.bz"
     weight = -100
 [[menu.main]]
     identifier = "articles"
